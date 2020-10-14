@@ -25,14 +25,14 @@
  Set to 1 (default) to use the Parola hardware modules. The
  software was originally designed to operate with this hardware type.
  */
-#define USE_PAROLA_HW 0
+#define USE_PAROLA_HW 1
 
 /**
  \def USE_GENERIC_HW
  Set to 1 to use 'generic' hardware modules commonly available, with
  connectors at the top and bottom of the PCB, available from many sources.
  */
-#define USE_GENERIC_HW 0
+#define USE_GENERIC_HW 1
 
 /**
  \def USE_ICSTATION_HW
@@ -40,7 +40,7 @@
  http://www.icstation.com/product_info.php?products_id=2609#.UxqVJyxWGHs
  This hardware must be set up with the input on the RHS.
  */
-#define USE_ICSTATION_HW 0
+#define USE_ICSTATION_HW 1
 
 /**
  \def USE_FC16_HW
@@ -48,7 +48,7 @@
  FC16 modules are similar in format to the ICStation modules but are wired differently.
  Modules are identified by a FC-16 designation on the PCB
   */
-#define USE_FC16_HW 1
+#define USE_FC16_HW 0
 
 /**
  \def USE_OTHER_HW
